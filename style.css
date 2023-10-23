@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.btn1{
+    width: 100px;
+    height: 100px;
+}
+.btn1:hover{
+    transform: scale(2);
+    transition: 2s;
+
+}
+.btn2:focus{.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.btn1{
+    width: 100px;
+    height: 100px;
+}
+.btn1:hover{
+    transform: scale(2);
+    transition: 2s;
+
+}
+.btn2:focus{
+    color: yellow;
+
+}
+.btn3:active{
+    color: aqua;
+}
+.text::before{
+content: "lorem";
+color: blue;
+font-weight: bold;
+font-size: 50px;
+}
+.text::selection{
+    color: red;
+    background-color: green;
+
+}
+.text::after{
+    content: hello;
+}
+.spisok li::marker{
+    color: red;
+    font-size: 50px;
+
+}
+.input::placeholder{
+    color: rgb(180, 44, 44);
+}
+
+    color: yellow;
+
+}
+.btn3:active{
+    color: aqua;
+}
+.text::before{
+content: "lorem";
+color: blue;
+font-weight: bold;
+font-size: 50px;
+}
+.text::selection{
+    color: red;
+    background-color: green;
+
+}
+.text::after{
+    content: hello;
+}
+.spisok li::marker{
+    color: red;
+    font-size: 50px;
+
+}
+.input::placeholder{
+    color: rgb(180, 44, 44);
+}
